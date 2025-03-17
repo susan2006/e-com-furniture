@@ -35,6 +35,30 @@ html{
     width: 5rem;
     border-radius: 15px;
 }
+
+/*animations*/
+
+@keyframes fromLeft{
+    from{
+        transform: translateX(-250px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.animate {
+    animation: fromLeft 1s ease-in;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section{
     width: 100%;
     min-height: 100vh;
