@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Furnify</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="/assets/formstyle.css">
+    <script defer src="./form.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" >
+            <h1>Furnify Registration</h1>
+            <div class="input-control">
+                <label for="fname">Firstname</label>
+                <input id="fname" name="fname" type="text" placeholder="Enter your Firstname">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lname">Lastname</label>
+                <input id="lname" name="lname" type="text" placeholder="Enter your Lastname">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter a valid Username">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your Email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password" placeholder="Enter a Password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirm Password</label>
+                <input id="password2"name="password2" type="password" placeholder="Enter your Password again">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
